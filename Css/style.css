@@ -10,6 +10,10 @@ header {
   width: 100%;
 }
 
+h6{
+  font-weight: bold;
+}
+
 .div-cadastro {
   text-align: center;
   margin-top: -5%;
@@ -30,11 +34,16 @@ header {
   opacity: 1;
   font-size: 27px;
   font-weight: bold;
+  padding: 6px;
 }
 
 .p {
   margin-top: -8px;
   font-size: 20px;
+}
+
+.div-final{
+  margin-top: 10%;
 }
 
 .textos-dados {
@@ -160,6 +169,20 @@ a {
   border: none;
 }
 
+.btn-portal{
+  top: 740px;
+  width: 86%;
+  height: 53px;
+  background: #c83d2f 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  opacity: 1;
+  color: white;
+  margin-top: 10px;
+  margin-left: 2px;
+  margin-top: 10%;
+  border: none;
+}
+
 .input-segmento {
   display: flex;
   justify-content: center;
@@ -167,7 +190,7 @@ a {
 }
 
 .finalizando-pedido{
-  margin-top: 40%;
+  margin-top: 24%;
 }
 
 @media screen and (max-width: 420px) {
